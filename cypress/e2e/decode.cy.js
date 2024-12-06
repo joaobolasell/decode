@@ -1,7 +1,7 @@
 describe('Decodificador de Mensagens', () => {
     beforeEach(() => {
         // Acesse a página do projeto localmente. Substitua pela URL correta.
-        cy.visit('http://127.0.0.7:5501/index.html'); 
+        cy.visit('http://127.0.0.1:5501/index.html'); 
     });
 
     it('Deve codificar uma mensagem válida', () => {
