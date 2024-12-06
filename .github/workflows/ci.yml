@@ -47,9 +47,6 @@ jobs:
         # Espera o servidor inicializar antes de rodar os testes
         sleep 5
 
-    - name: Executar Testes de Sistema Cypress
-      run: npx cypress run --config baseUrl=http://127.0.0.1:5501
-
     - name: Ajustar permissões para ESLint
       run: chmod +x ./node_modules/.bin/eslint 
       
@@ -61,6 +58,9 @@ jobs:
 
     - name: Executar Testes Unitários
       run: npm test || echo "Jest"
+
+    - name: Executar Testes de Sistema Cypress
+      run: npx cypress run --config baseUrl=http://127.0.0.1:5501
 
     - name: Executar Testes de Sistema Cypress
       run: npx cypress run || echo "Cypress"
