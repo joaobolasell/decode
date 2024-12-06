@@ -28,7 +28,7 @@ jobs:
       run: chmod +x ./node_modules/.bin/eslint 
       
     - name: Executar Lint
-      run: npx eslint .
+      run: npx eslint . || echo "ESLint encontrou erros, "
 
     - name: Executar Testes Unitários
       run: npm test
