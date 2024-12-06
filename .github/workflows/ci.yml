@@ -37,6 +37,9 @@ jobs:
           
     - name: instalar Cypress
       run: npx cypress install
+        
+    - name: Instalar http-server globalmente
+      run: npm install -g http-server
 
     - name: Rodar servidor para a aplicação
       run: |
