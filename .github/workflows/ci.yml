@@ -22,7 +22,7 @@ jobs:
         node-version: '18'
 
     - name: Instalar Dependências do Projeto
-      run: npm install,
+      run: npm install
 
     - name: Cache Cypress
       uses: actions/cache@v3
