@@ -23,6 +23,9 @@ jobs:
 
     - name: Instalar Dependências do Projeto
       run: npm install
+
+    - name: Ajustar permissões para ESLint
+      run: chmod +x ./node_modules/.bin/eslint 
       
     - name: Executar Lint
       run: npx eslint .
