@@ -48,3 +48,6 @@
 | Verificar texto com caracteres especiais| Sim            | Sim              |
 | Copiar texto criptografado/descriptografado | Não            | Sim              |
 
+
+
+
