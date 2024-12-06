@@ -1,8 +1,10 @@
 # Plano de Teste
 
 ## Ferramentas
-- **Google Chrome**: Para testar a interface gráfica do usuário.
-- **Jest
+- **Visual Studio Code**: Editor de Código-Fonte.
+- **ESLint**: Ferramenta de análise estática para JavaScript e TypeScript, utilizada para verificação estática do código.
+- **Jest**: Framework para testes unitários.
+- **SonarQube**: Ferramenta para análise estática.
 - **SonarLint**: Para 
 
 
