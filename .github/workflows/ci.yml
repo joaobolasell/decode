@@ -21,14 +21,14 @@ jobs:
       with:
         node-version: '18'
 
-    - name: Install dependencies
+    - name: Instalar Dependências do Projeto
       run: npm install
       
-    - name: Run Lint
-      run: npx eslint .
+    - name: Executar Lint
+      run: npm run lint
 
-    - name: Run Tests
+    - name: Executar Testes Unitários
       run: npm test
 
-    - name: Run Cypress
+    - name: Executar Testes de Sistema Cypress
       run: npx cypress run

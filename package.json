@@ -4,7 +4,8 @@
   "description": "Sobre o Projeto\r ---\r - Um decodificador de texto simples, com design responsivo, desenvolvido em **HTML**, **CSS** e **JavaScript**.\r - Ele permite criptografar e descriptografar mensagens de forma prática e intuitiva, garantindo uma experiência amigável para o usuário.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint ."
   },
   "keywords": [],
   "author": "",
