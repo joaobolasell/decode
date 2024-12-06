@@ -1,6 +1,5 @@
 # TRABALHO DE VALIDAÇÃO E VERIFICAÇÃO DE SISTEMAS
 
-
 Sobre o Projeto DECODE
 ---
 - Um decodificador de texto simples, com design responsivo, desenvolvido em **HTML**, **CSS** e **JavaScript**.
