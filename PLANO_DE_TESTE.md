@@ -2,11 +2,13 @@
 
 ## Ferramentas
 - **Visual Studio Code**: Editor de Código-Fonte.
-- **ESLint**: Ferramenta de análise estática para JavaScript e TypeScript, utilizada para verificação estática do código.
-- **Jest**: Framework para testes unitários.
-- **SonarQube**: Ferramenta para análise estática.
-- **SonarLint**: Para 
-- **GitHub Actions**: Para integração contínua.
+- **SonarQube**: Ferramenta para análise estática no VS Code.
+- **ESLint**: Ferramenta de análise estática para JavaScript, utilizada no VS Code e no ambiente de integração, Github Actions.
+- **Jest**: Framework para testes unitários, utilizada no VS Code e no ambiente de integração, Github Actions.
+- **Cypress**: Ferramenta para testes de Sistema, utilizada no VS Code e no ambiente de integração, Github Actions.
+- **Github Actions**: Ferramenta para integração contínua.
+
+
 
 
 ## Procedimentos
@@ -16,3 +18,4 @@
 -  ****
 
 ## Matriz de Funcionalidades x Testes
+
