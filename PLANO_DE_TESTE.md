@@ -39,6 +39,7 @@
 - **Jest**: Configurado para executar testes unitários. **..\__tests__\unit\codigo_refatorado_para_testes.test.js**
 - **Cypress**: Configurado para executar testes de sistema. **..\cypress\e2e\decode.cy.js**
 - **Github Actions**: Configurado para executar testes e verificações estáticas automaticamente. **.github/workflows/ci.yml**
+- teste
 
 ## 4. Matriz de Funcionalidades x Testes
 | Funcionalidade                          | Teste Unitário | Teste de Sistema |
@@ -47,6 +48,8 @@
 | Descriptografar texto                   | Sim            | Sim              |
 | Verificar texto com caracteres especiais| Sim            | Sim              |
 | Copiar texto criptografado/descriptografado | Não            | Sim              |
+
+
 
 
 
