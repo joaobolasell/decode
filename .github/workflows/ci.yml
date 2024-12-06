@@ -29,6 +29,9 @@ jobs:
       
     - name: Executar Lint
       run: npx eslint . || echo "ESLint encontrou erros, "
+    
+    - name: Ajustar permissões para o Jest
+      run: chmod +x ./node_modules/.bin/jest
 
     - name: Executar Testes Unitários
       run: npm test
