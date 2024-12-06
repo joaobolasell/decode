@@ -6,10 +6,13 @@
 - **Jest**: Framework para testes unitários.
 - **SonarQube**: Ferramenta para análise estática.
 - **SonarLint**: Para 
+- **GitHub Actions**: Para integração contínua.
 
 
 ## Procedimentos
 
 ## Requisitos / Restrições / Configurações
+- **Node.js**: Versão mínima 18.x para executar os testes.
+-  ****
 
 ## Matriz de Funcionalidades x Testes
