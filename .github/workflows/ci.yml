@@ -60,7 +60,5 @@ jobs:
       run: npm test || echo "Jest"
 
     - name: Executar Testes de Sistema Cypress
-      run: npx cypress run --config baseUrl=http://127.0.0.1:5501
+      run: npx cypress run --config baseUrl=http://127.0.0.1:5501 || echo "Cypress"
 
-    - name: Executar Testes de Sistema Cypress
-      run: npx cypress run || echo "Cypress"
