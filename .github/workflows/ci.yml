@@ -28,13 +28,16 @@ jobs:
       run: chmod +x ./node_modules/.bin/eslint 
       
     - name: Executar Lint
-      run: npx eslint . || echo "ESLint encontrou erros"
+      run: npx eslint . || echo "ESLint"
     
     - name: Ajustar permissões para o Jest
       run: chmod +x ./node_modules/.bin/jest
 
     - name: Executar Testes Unitários
-      run: npm test || echo "Jest encontrou erros"
+      run: npm test || echo "Jest"
+
+    - name: Ajustar permissões para Cypress
+      run: chmod +x ./node_modules/.bin/cypress
 
     - name: Executar Testes de Sistema Cypress
-      run: npx cypress run || echo "Cypress encontrou erros"
+      run: npx cypress run || echo "Cypress"
