@@ -24,13 +24,16 @@ jobs:
     - name: Instalar Dependências do Projeto
       run: npm install
 
-    - name: Cache Cypress
+    - name: Cache Cypress Binary
       uses: actions/cache@v3
       with:
         path: ~/.cache/Cypress
         key: ${{ runner.os }}-cypress-${{ hashFiles('**/package-lock.json') }}
         restore-keys: |
-          ${{ runner.os }}-cypress-
+          ${{ runner.os }}-cypress-  
+
+    - name: instalar Cypress
+      run: npx cypress install
 
     - name: Ajustar permissões para ESLint
       run: chmod +x ./node_modules/.bin/eslint 
